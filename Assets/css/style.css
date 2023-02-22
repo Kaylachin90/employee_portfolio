@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(127, 117, 128, 0.281);
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header Styles */
+.header {
+    padding: 10px 10px 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(56, 56, 56);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    max-width: 90vw;
+    margin: 0 auto;
+
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 36px;
+    background-color: lightblue;
+    padding-left: 200px;
+}
+
+.header nav ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+}
+
+#subtitle {
+    color: rgb(56, 56, 56);
+    background-color: lightblue;
+    position: absolute;
+    font-size: 30px;
+    right: 15px;
+    bottom: 15px;
+}
+
+.header nav ul li {
+    list-style-type: none;
+}
+
+.header nav ul li a {
+    display: inline-block;
+    margin-left: 25px;
+    color: lightblue;
+}
+
+/* a {
+    color: lightblue;
+    text-decoration: none;
+} */
+
+#hero {
+    background-image: url(../images/tile.jpg);
+    height: 20vh;
+    max-width: 90vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* outerbox */
+main {
+    /* Turns this element into a flexbox */
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+
+#About-Me {
+    margin: 0 auto;
+    font-size: 32px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+
+.title {
+
+    width: 30%;
+    border-right: 3px blue solid;
+    font-size: 32px;
+    padding: 75px
+    
+    
+}
+
+.profile {
+    max-width: 100%;
+}
+
+#content {
+    line-height: 2;
+    width: 70%;
+    padding-left: 10px;
+    font-size: 30px;
+    margin-left: 60px;
+    overflow: hidden;
+    display:flex
+}
+
+
+#work {
+    /* margin: 0 auto; */
+    font-size: 32px;
+}
+
+.image-containter {
+    width: 100%;
+    height: auto;
+    display: inline;
+    flex-wrap: wrap;
+}
+
+.horiseon {
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    /* padding-left: 80px; */
+}
+
+.pics {
+    background-color: lightblue;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.prework {
+    width: 80%;
+    height: 250px;
+    /* padding-left: 20px; */
+    padding-left: 180px;
+}
+
+.fishing {
+    width: 80%;
+    height: 250px;
+    padding-left: 180px;
+}
+
+
+#contact-me {
+    margin: 0 auto;
+    font-size: 32px;
+    padding-top: 50px;
+}
+
+#info {
+    display: inline-block;
+    font-size: 40px;
+    line-height: 2;
+}
+
+
